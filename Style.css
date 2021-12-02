@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("log.jpg");
+}
+.container
+{
+    padding: 10px;
+    margin-left: 300px;
+}
+.container .image{
+     float: left;
+     margin-left: -0px;
+     padding-left: -2px;
+     margin-top: 40px;
+     
+}
+
+.container .contain{
+    
+    background-color: #ffffff;
+    float: left;
+    margin-left: -5px;
+    padding: 20px;
+    margin-top: 40px;
+    
+}
+.center {
+    text-align: center;
+   }
+
+h6{
+    font-style: normal;
+    color: #737373;
+    font-size:medium;
+}
+label{
+    font-style: normal;
+    color: #737373;
+    text-align: center;
+}
+input{
+    color: #737373;
+    border-style: outset;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+span{
+    color:red;
+    text-decoration: none;
+    
+}
+
+#submit{
+    color: #fff;
+    background: linear-gradient(323deg, #f54284, cyan);
+    border-radius:30px;
+    width: 100%;
+    font-size: x-large;
+    padding: 10px;
+   box-shadow: 5px 10px 8px #888888;
+}
